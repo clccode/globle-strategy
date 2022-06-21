@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Globle Strategy</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="heading">
+        <h1>The "Globle" Strategy Page</h1>
+        <img src="./resources/globe.png" alt="globe" id="globe">
+        <hr>
+    </div>
+    <div id="narrative">
+        <p><a href="https://globle-game.com/" target="_blank">Globle</a> is a great game! It's name 
+        is a play on the popular word game <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank">Wordle</a> 
+        but it's quite different.</p>
+        
+        <p>It will test how well you know geography. However, arriving at the correct answer each 
+        day can be a long process. While geography buffs will always do well, consider the math. 
+        Globle has 196 countries (note that Globle includes Taiwan as a possible answer). That gives 
+        you about a .05% chance of guessing it right on the first try. Those aren't good odds.
+        </p>
+
+        <p>It helps to think in terms of probability in order to help you get to the right answer 
+        faster. Here is the breakdown of the number of countries in the world by region:
+            <ul>
+                <li>Africa: 54 countries</li>
+                <li>Asia: 49 countries</li>
+                <li>Europe: 44 countries</li>
+                <li>Latin America & the Caribbean: 33 countries</li>
+                <li>Oceania: 14 countries</li>
+                <li>North America: 2 countries</li>
+            </ul>
+        Notice where the majority of the countries in the world are. Fifty-four (27.5%) of the 
+        world's countries are in Africa. Forty-nine (25%) of the countries in the world are in 
+        Asia (note: that includes the Middle East region). Europe has 44 countries, or 22.4% of the 
+        total. That give you a clue where to make your first guess.
+        </p>
+
+        <p>With a slightly better than 1 in 4 chance that the country is in Africa, that is a good continent 
+        to draw your first guess from. Asia, with a 1 in 4 chance of having the solution, is also a good
+        choice. Both are very large continents, so if the answer you put in shows > 5000 km, it's likely
+        that the solution is in another region/continent.
+        </p>
+
+        <h3>A recent example</h3>
+        <p>Here is how I solved Globle on June 16, 2022:
+            <ul>
+                <li>1st guess: Tunisia (2140 km from the solution)</li>
+                <li>2nd guess: Eritrea (1340 km from the solution)</li>
+                <li>3rd guess: Central African Republic (farther, no km given if further from the answer)</li>
+                <li>4th guess: Kenya (also further from the solution)</li>
+            </ul>
+        
+        Given I started in North Africa and the sub-Saharan African countries I selected were further
+        from the solution, I figured it was time to move to a different continent. Given the first 
+        guess, Tunisia, was 2140 km from the solution, I guessed the solution was likely in the Middle
+        East (Asia). Here's how I continued:
+
+            <ul>
+                <li>5th guess: Syria (< 10 km from the solution). This tells me the answer is a country
+                that borders Syria.</li>
+                <li>6th guess: Israel--the correct answer!</li>
+            </ul>
+        Getting the correct answer in 6 guesses isn't bad, but it's not easy to do.
+        </p>
+
+        <p id="map-look">Take a look at the map of Syria below:</p>
+
+        <img src="./resources/syria-map_1.jpg" alt="Syria Map" id="syria-map">
+        
+        <p>When you look at the map, I had 5 countries to choose from: Lebanon, Israel, Jordan, 
+        Iraq, and Turkey. I had a 1 in 5 chance of getting it right (20%) and I made the right
+        choice. It also could have gone the other way and I make four more guesses until I 
+        find the answer.
+        </p>
+
+        <p>Once you narrow it down is when your knowledge of geography comes into play. Africa, for 
+        example, has 54 countries and it is hard to know exactly where they all are. Also, if the solution 
+        is one of the small Pacific or Caribbean islands it might take a lot of turns to find the right 
+        answer. That's what makes the game so challenging.
+        </p>
+
+        <p>I hope you enjoyed this short tutorial. Globle is a difficult, but fun, game to play. Keep at 
+        it and you will find your geography skills will improve. Have fun!
+        </p>
+    </div>
+    <hr>
+    <div id="closing">
+        <p>Your local time is below. Don't run out of time to play Globle today!⏳😀</p>
+    </div>
+    <div id="clock">
+        <script src="./script.js"></script>
+    </div>
+    <div id="footer">
+        <hr>
+    </div>
+</body>
+</html>

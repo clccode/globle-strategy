@@ -1,0 +1,36 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    margin: auto;
+    background-color: lightcyan;
+    line-height: 1.5rem;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#globe {
+    display: flex;
+    margin: auto;
+}
+
+#map-look {
+    text-align: center;
+}
+
+#syria-map {
+    display: flex;
+    margin: auto;
+}
+
+#closing {
+    text-align: center;
+}
+
+#clock {
+    text-align: center;
+    font-weight: bold;
+}
