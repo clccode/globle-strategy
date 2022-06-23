@@ -40,6 +40,10 @@ h1 {
 @media screen and (max-width: 850px) {
     body {
         max-width: 630px;
-        margin: 5px;
+        margin: 10px;
+    }
+
+    h2 {
+        line-height: 1.5rem;
     }
 }
