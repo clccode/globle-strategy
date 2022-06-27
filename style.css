@@ -17,13 +17,8 @@ h1 {
     margin: auto;
 }
 
-#map-look {
-    text-align: center;
-}
-
 #syria-map {
     display: flex;
-    margin: auto;
     width: 300px;
     height: auto;
 }
