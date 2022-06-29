@@ -2,13 +2,14 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     justify-content: center;
     margin: auto;
-    background-color: lightcyan;
+    background-color: rgb(181, 215, 215);
     line-height: 1.5rem;
     margin-left: 100px;
     margin-right: 100px;
 }
 
 h1 {
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -19,17 +20,15 @@ h1 {
 
 #syria-map {
     display: flex;
-    width: 300px;
+    width: 250px;
     height: auto;
-}
-
-#closing {
-    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 #clock {
-    text-align: center;
     font-weight: 600;
+    padding-bottom: 10px;
 }
 
 @media screen and (max-width: 850px) {
