@@ -18,6 +18,22 @@ h1 {
     margin: auto;
 }
 
+#start-screen {
+    display: flex;
+    width: 250px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#success {
+    display: flex;
+    width: 250px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 #syria-map {
     display: flex;
     width: 250px;
