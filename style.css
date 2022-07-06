@@ -16,25 +16,11 @@ h1 {
 #globe {
     display: flex;
     margin: auto;
-}
-
-#start-screen {
-    display: flex;
-    width: 250px;
     height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    width: 170px;
 }
 
-#success {
-    display: flex;
-    width: 250px;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-#syria-map {
+img {
     display: flex;
     width: 250px;
     height: auto;
